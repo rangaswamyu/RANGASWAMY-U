@@ -16,7 +16,7 @@ def job_scheduling(n, jobs):
             total_profit += job[2]
     return (n - len(selected_jobs), total_profit)
 
-if _name_ == "_main_":
+if name == "main":
     n = int(input("Enter the number of Jobs: "))
     jobs = []
     for i in range(n):
