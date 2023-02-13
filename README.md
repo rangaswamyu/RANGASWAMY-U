@@ -4,6 +4,7 @@ High Peak Coding Assignment
 
 EXECUTION VIDEO:
 https://user-images.githubusercontent.com/125238450/218432256-793611ce-14d8-4f33-bc1a-09a729b786c4.mp4
+
 CODE:
 def job_scheduling(n, jobs):
     jobs = sorted(jobs, key=lambda x: x[2], reverse=True)
